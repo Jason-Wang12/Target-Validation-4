@@ -1,0 +1,137 @@
+run_id: sanity_v1
+outputs_dir: /mnt/results/rcvtc_runs/${run_id}
+
+genes:
+  - PCSK9
+  - JAK2
+  - LDLR
+
+disease:                                # optional
+  efo_id: null                          # sanity run has no fixed disease
+  additional_hpo_terms: []
+  phenotype_match_strategy: "efo_hpo_synonyms + fuzzy_string"
+  fuzzy_score_min: 0.85
+
+# ═══════════════════════════════════════════════════════════════
+# STAGE 1 — variant catalog + associations
+# ═══════════════════════════════════════════════════════════════
+stage1:
+  variant_source: gnomad_v4
+  af_filter:
+    max_popmax_af: 0.001                 # rare = popmax < 0.1 %
+    min_popmax_ac: 1
+    exclude_flags: [AC0, InbreedingCoeff, LowQual, RF]
+    min_read_coverage: 20
+  associations:
+    genebass:
+      enabled: true
+      annotations: ["pLoF", "missense|LC"]
+      report_as_aggregate: true
+    expheway:
+      enabled: true
+      analysis_type: "PHECODES"
+      analysis_subset: "BOTH"
+      timeout_s_per_query: 30
+    ot_gene_burden:
+      enabled: true
+      p_value_threshold: 1.0e-7
+    include_synonymous_control: false    # skip; not present in genebass filtered parquet
+
+# ═══════════════════════════════════════════════════════════════
+# STAGE 2 — functional characterization
+# ═══════════════════════════════════════════════════════════════
+stage2:
+  measured:
+    mavedb: {enabled: true, match_by: [uniprot_id, gene_symbol], require_score_normalization: true, min_coverage_fraction: 0.5}
+    clinvar_functional: {enabled: true, acmg_codes: [PS3, BS3], min_stars: 2}
+  predicted:
+    alphamissense: {enabled: true}
+    esm: {enabled: false}                # skip for scaffolding (adds 2GB model download); enable per-run
+    revel: {enabled: false}              # dbNSFP subset requires provisioning; enable per-run
+  annotated:
+    uniprot_features: {enabled: true, feature_types: [ACT_SITE, BINDING, SITE, LIPID, MOD_RES, DISULFID, MUTAGEN, VARIANT]}
+    interpro: {enabled: true}
+    alphafold_plddt: {enabled: true}
+    pdb_interfaces: {enabled: true, interface_distance_A: 5.0, require_experimental: false}
+
+# ═══════════════════════════════════════════════════════════════
+# STAGE 3 — allelic series (tier-burden inference)
+# ═══════════════════════════════════════════════════════════════
+stage3:
+  score_source_priority: [mavedb, alphamissense, esm, revel]
+  function_bins:
+    n_bins: 4
+    labels: [high_function, mid_function, low_function, null_function]
+    binning: quartiles
+  test:
+    method: "aggregate_mask_comparison"
+    require_min_variants_per_bin: 3
+  gof_definition: "missense_mask_beta_magnitude_greater_than_plof AND missense_intolerant_constraint"
+
+# ═══════════════════════════════════════════════════════════════
+# STAGE 4 — published allelic-series retrieval
+# ═══════════════════════════════════════════════════════════════
+stage4:
+  clinvar:
+    enabled: true
+    min_stars: 2                          # criteria provided, multiple submitters, no conflicts
+  ot_curated:
+    enabled: true
+    # OT datasources considered "curated" / high-confidence per plan v3
+    datasource_ids: [eva, orphanet, genomics_england, gene2phenotype, uniprot_literature]
+    max_evidences_per_disease: 200
+  literature_search:
+    per_signal_gene_queries:
+      - "<GENE> allelic series human genetics UK Biobank"
+      - "<GENE> Regeneron exome variant phenotype"
+      - "<GENE> dose-response variant severity phenotype"
+    max_papers_per_query: 5
+  extract_from_abstracts_only: true
+
+# ═══════════════════════════════════════════════════════════════
+# STAGE 5 — replication (FinnGen)
+# ═══════════════════════════════════════════════════════════════
+stage5:
+  finngen_r12:
+    enabled: true
+    match_endpoint_to_ukb_phenotype: fuzzy_efo_hpo
+  concordance:
+    direction_required: true
+    p_max: 0.05
+
+# ═══════════════════════════════════════════════════════════════
+# STAGE 6 — mechanism verdict
+# ═══════════════════════════════════════════════════════════════
+stage6:
+  gof_signal_rules:
+    clinvar_functional_terms: ["gain of function", "activating", "constitutively active"]
+    regional_missense_constraint_oe_max: 0.6
+    constraint_pattern_gof: {loeuf_min: 0.6, missense_oe_max: 0.6}
+    dms_gof_evidence: true
+
+# ═══════════════════════════════════════════════════════════════
+# STAGE 7 — curation
+# ═══════════════════════════════════════════════════════════════
+stage7:
+  opentargets:
+    datasource_weight_profile: "genetics_first"
+    enable_indirect: true
+  clinvar_stars_min: 2
+  literature:
+    signal_gene_max_papers: 15
+    no_signal_gene_max_papers: 3
+    year_min: 2015
+
+# ═══════════════════════════════════════════════════════════════
+# STAGE 8 — expression + tissue
+# ═══════════════════════════════════════════════════════════════
+stage8:
+  gtex_median_tpm_min: 1.0
+  high_expression_percentile: 90
+
+output:
+  per_gene_card: true
+  cross_gene_report: true
+  save_intermediate_parquet: true
+  figure_formats: [png, svg]
+  certainty_labels_required_on_every_claim: true

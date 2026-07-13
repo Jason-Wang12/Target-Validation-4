@@ -1,0 +1,21 @@
+run_id: smoke_v1
+outputs_dir: /mnt/results/rcvtc_runs/${run_id}
+genes: [PCSK9, JAK2, LDLR]
+disease: {efo_id: null, additional_hpo_terms: [], phenotype_match_strategy: "efo_hpo_synonyms + fuzzy_string", fuzzy_score_min: 0.85}
+stage1: {variant_source: gnomad_v4, af_filter: {max_popmax_af: 0.001, min_popmax_ac: 1, exclude_flags: [AC0, InbreedingCoeff, LowQual, RF], min_read_coverage: 20}, associations: {genebass: {enabled: false}, expheway: {enabled: false}, ot_gene_burden: {enabled: false}, include_synonymous_control: false}}
+stage2: {measured: {mavedb: {enabled: false}, clinvar_functional: {enabled: false}}, predicted: {alphamissense: {enabled: false}, esm: {enabled: false}, revel: {enabled: false}}, annotated: {uniprot_features: {enabled: false}, interpro: {enabled: false}, alphafold_plddt: {enabled: false}, pdb_interfaces: {enabled: false}}}
+stage3: {score_source_priority: [mavedb, alphamissense, esm, revel], function_bins: {n_bins: 4}, test: {method: aggregate_mask_comparison}}
+stage4:
+  literature_search: {per_signal_gene_queries: [], max_papers_per_query: 0}
+  extract_from_abstracts_only: true
+  clinvar: {enabled: false, min_stars: 2}
+  ot_curated: {enabled: false}
+stage5: {finngen_r12: {enabled: false}, concordance: {direction_required: true, p_max: 0.05}}
+stage6:
+  gof_signal_rules:
+    constraint_pattern_gof:
+      loeuf_min: 0.6
+      missense_oe_max: 0.6
+stage7: {opentargets: {datasource_weight_profile: genetics_first}, clinvar_stars_min: 2, literature: {signal_gene_max_papers: 0}}
+stage8: {gtex_median_tpm_min: 1.0, high_expression_percentile: 90}
+output: {per_gene_card: false, cross_gene_report: false, save_intermediate_parquet: true, figure_formats: [png], certainty_labels_required_on_every_claim: true}
