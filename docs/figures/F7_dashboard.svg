@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1126.08pt" height="618.123355pt" viewBox="0 0 1126.08 618.123355" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2022-01-01T05:00:00+00:00</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 618.123355 
+L 1126.08 618.123355 
+L 1126.08 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7.2 208.542857 
+L 160.403101 208.542857 
+L 160.403101 49.32 
+L 7.2 49.32 
+z
+" clip-path="url(#pd7ed320409)" style="fill: #e69f00; opacity: 0.15"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 16.392186 144.853714 
+L 143.55076 144.853714 
+Q 148.146853 144.853714 148.146853 140.077029 
+L 148.146853 117.785829 
+Q 148.146853 113.009143 143.55076 113.009143 
+L 16.392186 113.009143 
+Q 11.796093 113.009143 11.796093 117.785829 
+L 11.796093 140.077029 
+Q 11.796093 144.853714 16.392186 144.853714 
+z
+" clip-path="url(#pd7ed320409)" style="fill: #d55e00; opacity: 0.85"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #e69f00" x="14.860155" y="77.980114" transform="rotate(-0 14.860155 77.980114)">PCSK9</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="14.860155" y="100.271314" transform="rotate(-0 14.860155 100.271314)">Rank #2</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="79.971473" y="130.049" transform="rotate(-0 79.971473 130.049)">GoF · activating</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="14.860155" y="163.960457" transform="rotate(-0 14.860155 163.960457)">LOEUF: 1.14</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="14.860155" y="179.882743" transform="rotate(-0 14.860155 179.882743)">Composite score: 485.6</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="text_6">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="188.630772" y="64.561416" transform="rotate(-0 188.630772 64.561416)">Genebass burden (top phenotype)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="188.630772" y="87.716818" transform="rotate(-0 188.630772 87.716818)">Phenotype: LDL-C direct</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="188.630772" y="118.833362" transform="rotate(-0 188.630772 118.833362)">pLoF mask</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="237.962171" y="119.197375" transform="rotate(-0 237.962171 119.197375)">β = -0.039</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="290.81724" y="119.197375" transform="rotate(-0 290.81724 119.197375)">p = &lt;1e-100</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="188.630772" y="144.309019" transform="rotate(-0 188.630772 144.309019)">missense|LC</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="237.962171" y="144.673032" transform="rotate(-0 237.962171 144.673032)">β = -0.008</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="290.81724" y="144.673032" transform="rotate(-0 290.81724 144.673032)">p = 2.3e-67</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="text_14">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="389.365135" y="64.561416" transform="rotate(-0 389.365135 64.561416)">ClinVar 2⁺★ pathogenic</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="389.365135" y="89.172872" transform="rotate(-0 389.365135 89.172872)">n = 5</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="389.365135" y="109.644004" transform="rotate(-0 389.365135 109.644004)">missense: 4   LoF: 0   other: 1</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="389.365135" y="134.755647" transform="rotate(-0 389.365135 134.755647)">Variants:</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="389.365135" y="153.86239" transform="rotate(-0 389.365135 153.86239)">E32K</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="389.365135" y="168.192447" transform="rotate(-0 389.365135 168.192447)">D374H</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="389.365135" y="182.522504" transform="rotate(-0 389.365135 182.522504)">R151H</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="389.365135" y="196.852562" transform="rotate(-0 389.365135 196.852562)">D249Y</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_4">
+    <path d="M 582.439343 151.222629 
+L 695.43185 151.222629 
+L 695.43185 135.300343 
+L 582.439343 135.300343 
+z
+" clip-path="url(#p1fd66a2e7a)" style="fill: #999999"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 695.43185 151.222629 
+L 706.097354 151.222629 
+L 706.097354 135.300343 
+L 695.43185 135.300343 
+z
+" clip-path="url(#p1fd66a2e7a)" style="fill: #f0e442"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 706.097354 151.222629 
+L 720.781743 151.222629 
+L 720.781743 135.300343 
+L 706.097354 135.300343 
+z
+" clip-path="url(#p1fd66a2e7a)" style="fill: #d55e00"/>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="582.439343" y="64.561416" transform="rotate(-0 582.439343 64.561416)">AlphaMissense</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="582.439343" y="87.716818" transform="rotate(-0 582.439343 87.716818)">n scored: 895</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="582.439343" y="106.82356" transform="rotate(-0 582.439343 106.82356)">mean pathogenicity: 0.218</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="582.439343" y="179.338047" transform="rotate(-0 582.439343 179.338047)">benign: 731   amb.: 69   likely_path.: 95</text>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_7">
+    <path d="M 826.070574 113.009143 
+L 902.672124 113.009143 
+L 902.672124 103.455771 
+L 826.070574 103.455771 
+z
+" clip-path="url(#p193ce4cf3a)" style="fill: #e69f00; opacity: 0.85"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 826.070574 144.853714 
+L 842.681015 144.853714 
+L 842.681015 135.300343 
+L 826.070574 135.300343 
+z
+" clip-path="url(#p193ce4cf3a)" style="fill: #e69f00; opacity: 0.85"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 826.070574 176.698286 
+L 838.004289 176.698286 
+L 838.004289 167.144914 
+L 826.070574 167.144914 
+z
+" clip-path="url(#p193ce4cf3a)" style="fill: #e69f00; opacity: 0.85"/>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="767.853395" y="64.561416" transform="rotate(-0 767.853395 64.561416)">HPA tissue expression</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="84.53236" transform="rotate(-0 767.853395 84.53236)">Tissue enriched</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="107.687762" transform="rotate(-0 767.853395 107.687762)">Liver</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="904.204155" y="114.056676" transform="rotate(-0 904.204155 114.056676)">47.5</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="139.532333" transform="rotate(-0 767.853395 139.532333)">Cerebellum</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="844.213046" y="145.901247" transform="rotate(-0 844.213046 145.901247)">10.3</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="171.376904" transform="rotate(-0 767.853395 171.376904)">Lung</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="839.53632" y="177.745819" transform="rotate(-0 839.53632 177.745819)">7.4</text>
+   </g>
+  </g>
+  <g id="axes_6">
+   <g id="patch_10">
+    <path d="M 946.220105 93.9024 
+L 1043.121067 93.9024 
+L 1043.121067 84.349029 
+L 946.220105 84.349029 
+z
+" clip-path="url(#p8ca8a3e1d1)" style="fill: #e69f00; opacity: 0.85"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 946.220105 133.708114 
+L 1021.408931 133.708114 
+L 1021.408931 124.154743 
+L 946.220105 124.154743 
+z
+" clip-path="url(#p8ca8a3e1d1)" style="fill: #e69f00; opacity: 0.85"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 946.220105 173.513829 
+L 1006.41657 173.513829 
+L 1006.41657 163.960457 
+L 946.220105 163.960457 
+z
+" clip-path="url(#p8ca8a3e1d1)" style="fill: #e69f00; opacity: 0.85"/>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="946.220105" y="64.561416" transform="rotate(-0 946.220105 64.561416)">Top curated diseases</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="946.220105" y="82.212104" transform="rotate(-0 946.220105 82.212104)">familial hypercholesterolemia</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 7.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="1044.882902" y="94.585919" transform="rotate(-0 1044.882902 94.585919)">106.7  (n=200)</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="946.220105" y="122.017819" transform="rotate(-0 946.220105 122.017819)">hypercholesterolemia, autosomal domina…</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 7.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="1023.170767" y="134.391634" transform="rotate(-0 1023.170767 134.391634)">82.8  (n=200)</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="946.220105" y="161.823533" transform="rotate(-0 946.220105 161.823533)">Abnormality of the cardiovascular system</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 7.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="1008.178406" y="174.197348" transform="rotate(-0 1008.178406 174.197348)">66.3  (n=200)</text>
+   </g>
+  </g>
+  <g id="axes_7">
+   <g id="patch_13">
+    <path d="M 7.2 407.571429 
+L 160.403101 407.571429 
+L 160.403101 248.348571 
+L 7.2 248.348571 
+z
+" clip-path="url(#pe7b3485332)" style="fill: #cc79a7; opacity: 0.15"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 16.392186 343.882286 
+L 143.55076 343.882286 
+Q 148.146853 343.882286 148.146853 339.1056 
+L 148.146853 316.8144 
+Q 148.146853 312.037714 143.55076 312.037714 
+L 16.392186 312.037714 
+Q 11.796093 312.037714 11.796093 316.8144 
+L 11.796093 339.1056 
+Q 11.796093 343.882286 16.392186 343.882286 
+z
+" clip-path="url(#pe7b3485332)" style="fill: #d55e00; opacity: 0.85"/>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #cc79a7" x="14.860155" y="277.008686" transform="rotate(-0 14.860155 277.008686)">JAK2</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="14.860155" y="299.299886" transform="rotate(-0 14.860155 299.299886)">Rank #3</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="79.971473" y="329.077571" transform="rotate(-0 79.971473 329.077571)">GoF · activating</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="14.860155" y="362.989029" transform="rotate(-0 14.860155 362.989029)">LOEUF: 0.74</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="14.860155" y="378.911314" transform="rotate(-0 14.860155 378.911314)">Composite score: 201.2</text>
+   </g>
+  </g>
+  <g id="axes_8">
+   <g id="text_46">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="188.630772" y="263.589988" transform="rotate(-0 188.630772 263.589988)">Genebass burden (top phenotype)</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="188.630772" y="286.745389" transform="rotate(-0 188.630772 286.745389)">Phenotype: Platelet count</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="188.630772" y="317.861933" transform="rotate(-0 188.630772 317.861933)">pLoF mask</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="237.962171" y="318.225947" transform="rotate(-0 237.962171 318.225947)">β = +0.036</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="290.81724" y="318.225947" transform="rotate(-0 290.81724 318.225947)">p = 9.3e-38</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="188.630772" y="343.33759" transform="rotate(-0 188.630772 343.33759)">missense|LC</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="237.962171" y="343.701604" transform="rotate(-0 237.962171 343.701604)">β = +0.006</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="290.81724" y="343.701604" transform="rotate(-0 290.81724 343.701604)">p = 3.2e-98</text>
+   </g>
+  </g>
+  <g id="axes_9">
+   <g id="text_54">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="389.365135" y="263.589988" transform="rotate(-0 389.365135 263.589988)">ClinVar 2⁺★ pathogenic</text>
+   </g>
+   <g id="text_55">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="389.365135" y="288.201444" transform="rotate(-0 389.365135 288.201444)">n = 1</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="389.365135" y="308.672575" transform="rotate(-0 389.365135 308.672575)">missense: 1   LoF: 0   other: 0</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="389.365135" y="333.784219" transform="rotate(-0 389.365135 333.784219)">Variants:</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="389.365135" y="352.890962" transform="rotate(-0 389.365135 352.890962)">V617F</text>
+   </g>
+  </g>
+  <g id="axes_10">
+   <g id="patch_15">
+    <path d="M 582.439343 350.2512 
+L 663.664505 350.2512 
+L 663.664505 334.328914 
+L 582.439343 334.328914 
+z
+" clip-path="url(#p722436afb6)" style="fill: #999999"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 663.664505 350.2512 
+L 679.334656 350.2512 
+L 679.334656 334.328914 
+L 663.664505 334.328914 
+z
+" clip-path="url(#p722436afb6)" style="fill: #f0e442"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 679.334656 350.2512 
+L 720.781743 350.2512 
+L 720.781743 334.328914 
+L 679.334656 334.328914 
+z
+" clip-path="url(#p722436afb6)" style="fill: #d55e00"/>
+   </g>
+   <g id="text_59">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="582.439343" y="263.589988" transform="rotate(-0 582.439343 263.589988)">AlphaMissense</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="582.439343" y="286.745389" transform="rotate(-0 582.439343 286.745389)">n scored: 1,492</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="582.439343" y="305.852132" transform="rotate(-0 582.439343 305.852132)">mean pathogenicity: 0.384</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="582.439343" y="378.366619" transform="rotate(-0 582.439343 378.366619)">benign: 876   amb.: 169   likely_path.: 447</text>
+   </g>
+  </g>
+  <g id="axes_11">
+   <g id="patch_18">
+    <path d="M 826.070574 312.037714 
+L 902.672124 312.037714 
+L 902.672124 302.484343 
+L 826.070574 302.484343 
+z
+" clip-path="url(#paa9a144528)" style="fill: #cc79a7; opacity: 0.85"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 826.070574 343.882286 
+L 880.211793 343.882286 
+L 880.211793 334.328914 
+L 826.070574 334.328914 
+z
+" clip-path="url(#paa9a144528)" style="fill: #cc79a7; opacity: 0.85"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 826.070574 375.726857 
+L 874.537604 375.726857 
+L 874.537604 366.173486 
+L 826.070574 366.173486 
+z
+" clip-path="url(#paa9a144528)" style="fill: #cc79a7; opacity: 0.85"/>
+   </g>
+   <g id="text_63">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="767.853395" y="263.589988" transform="rotate(-0 767.853395 263.589988)">HPA tissue expression</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="283.560932" transform="rotate(-0 767.853395 283.560932)">Low tissue specificity</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="306.716333" transform="rotate(-0 767.853395 306.716333)">Blood vessel</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="904.204155" y="313.085247" transform="rotate(-0 904.204155 313.085247)">32.4</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="338.560904" transform="rotate(-0 767.853395 338.560904)">Heart muscle</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="881.743824" y="344.929819" transform="rotate(-0 881.743824 344.929819)">22.9</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="370.405476" transform="rotate(-0 767.853395 370.405476)">Bone marrow</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="876.069635" y="376.77439" transform="rotate(-0 876.069635 376.77439)">20.5</text>
+   </g>
+  </g>
+  <g id="axes_12">
+   <g id="patch_21">
+    <path d="M 946.220105 292.930971 
+L 1043.121067 292.930971 
+L 1043.121067 283.3776 
+L 946.220105 283.3776 
+z
+" clip-path="url(#pecdd1dbb14)" style="fill: #cc79a7; opacity: 0.85"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 946.220105 332.736686 
+L 980.702521 332.736686 
+L 980.702521 323.183314 
+L 946.220105 323.183314 
+z
+" clip-path="url(#pecdd1dbb14)" style="fill: #cc79a7; opacity: 0.85"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 946.220105 372.5424 
+L 969.818574 372.5424 
+L 969.818574 362.989029 
+L 946.220105 362.989029 
+z
+" clip-path="url(#pecdd1dbb14)" style="fill: #cc79a7; opacity: 0.85"/>
+   </g>
+   <g id="text_71">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="946.220105" y="263.589988" transform="rotate(-0 946.220105 263.589988)">Top curated diseases</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="946.220105" y="281.240676" transform="rotate(-0 946.220105 281.240676)">hereditary disease</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 7.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="1044.882902" y="293.614491" transform="rotate(-0 1044.882902 293.614491)">48.7  (n=146)</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="946.220105" y="321.04639" transform="rotate(-0 946.220105 321.04639)">neoplasm</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 7.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="982.464357" y="333.420205" transform="rotate(-0 982.464357 333.420205)">17.3  (n=70)</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="946.220105" y="360.852104" transform="rotate(-0 946.220105 360.852104)">polycythemia</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 7.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="971.580409" y="373.225919" transform="rotate(-0 971.580409 373.225919)">11.9  (n=30)</text>
+   </g>
+  </g>
+  <g id="axes_13">
+   <g id="patch_24">
+    <path d="M 7.2 606.6 
+L 160.403101 606.6 
+L 160.403101 447.377143 
+L 7.2 447.377143 
+z
+" clip-path="url(#p9136f91bb7)" style="fill: #0072b2; opacity: 0.15"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 16.392186 542.910857 
+L 143.55076 542.910857 
+Q 148.146853 542.910857 148.146853 538.134171 
+L 148.146853 515.842971 
+Q 148.146853 511.066286 143.55076 511.066286 
+L 16.392186 511.066286 
+Q 11.796093 511.066286 11.796093 515.842971 
+L 11.796093 538.134171 
+Q 11.796093 542.910857 16.392186 542.910857 
+z
+" clip-path="url(#p9136f91bb7)" style="fill: #0072b2; opacity: 0.85"/>
+   </g>
+   <g id="text_78">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #0072b2" x="14.860155" y="476.037257" transform="rotate(-0 14.860155 476.037257)">LDLR</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="14.860155" y="498.328457" transform="rotate(-0 14.860155 498.328457)">Rank #1</text>
+   </g>
+   <g id="text_80">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="79.971473" y="528.113628" transform="rotate(-0 79.971473 528.113628)">LoF · haploinsufficiency</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="14.860155" y="562.0176" transform="rotate(-0 14.860155 562.0176)">LOEUF: 1.12</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="14.860155" y="577.939886" transform="rotate(-0 14.860155 577.939886)">Composite score: 521.8</text>
+   </g>
+  </g>
+  <g id="axes_14">
+   <g id="text_83">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="188.630772" y="462.618559" transform="rotate(-0 188.630772 462.618559)">Genebass burden (top phenotype)</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="188.630772" y="485.77396" transform="rotate(-0 188.630772 485.77396)">Phenotype: Lipid disorder (E78)</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="188.630772" y="516.890504" transform="rotate(-0 188.630772 516.890504)">pLoF mask</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="237.962171" y="517.254518" transform="rotate(-0 237.962171 517.254518)">β = +0.141</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="290.81724" y="517.254518" transform="rotate(-0 290.81724 517.254518)">p = 5.4e-64</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="188.630772" y="542.366162" transform="rotate(-0 188.630772 542.366162)">missense|LC</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="237.962171" y="542.730175" transform="rotate(-0 237.962171 542.730175)">β = +0.014</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="290.81724" y="542.730175" transform="rotate(-0 290.81724 542.730175)">p = 9.4e-42</text>
+   </g>
+  </g>
+  <g id="axes_15">
+   <g id="text_91">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="389.365135" y="462.618559" transform="rotate(-0 389.365135 462.618559)">ClinVar 2⁺★ pathogenic</text>
+   </g>
+   <g id="text_92">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="389.365135" y="487.230015" transform="rotate(-0 389.365135 487.230015)">n = 569</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="389.365135" y="507.701147" transform="rotate(-0 389.365135 507.701147)">missense: 359   LoF: 86   other: 124</text>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="389.365135" y="532.81279" transform="rotate(-0 389.365135 532.81279)">Hotspot variants:</text>
+   </g>
+   <g id="text_95">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="389.365135" y="551.919533" transform="rotate(-0 389.365135 551.919533)">F235fs  (×2)</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="389.365135" y="566.24959" transform="rotate(-0 389.365135 566.24959)">D227E  (×2)</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="389.365135" y="580.579647" transform="rotate(-0 389.365135 580.579647)">E140D  (×2)</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="389.365135" y="594.909704" transform="rotate(-0 389.365135 594.909704)">Q306fs  (×2)</text>
+   </g>
+   <g id="text_99">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="389.365135" y="609.239762" transform="rotate(-0 389.365135 609.239762)">M1L  (×2)</text>
+   </g>
+  </g>
+  <g id="axes_16">
+   <g id="patch_26">
+    <path d="M 582.439343 549.279771 
+L 654.655816 549.279771 
+L 654.655816 533.357486 
+L 582.439343 533.357486 
+z
+" clip-path="url(#pa3d0c2f50f)" style="fill: #999999"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 654.655816 549.279771 
+L 666.933583 549.279771 
+L 666.933583 533.357486 
+L 654.655816 533.357486 
+z
+" clip-path="url(#pa3d0c2f50f)" style="fill: #f0e442"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 666.933583 549.279771 
+L 699.029793 549.279771 
+L 699.029793 533.357486 
+L 666.933583 533.357486 
+z
+" clip-path="url(#pa3d0c2f50f)" style="fill: #d55e00"/>
+   </g>
+   <g id="text_100">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="582.439343" y="462.618559" transform="rotate(-0 582.439343 462.618559)">AlphaMissense</text>
+   </g>
+   <g id="text_101">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="582.439343" y="485.77396" transform="rotate(-0 582.439343 485.77396)">n scored: 1,431</text>
+   </g>
+   <g id="text_102">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="582.439343" y="504.880703" transform="rotate(-0 582.439343 504.880703)">mean pathogenicity: 0.374</text>
+   </g>
+   <g id="text_103">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="582.439343" y="577.39519" transform="rotate(-0 582.439343 577.39519)">benign: 747   amb.: 127   likely_path.: 332</text>
+   </g>
+  </g>
+  <g id="axes_17">
+   <g id="patch_29">
+    <path d="M 826.070574 511.066286 
+L 902.672124 511.066286 
+L 902.672124 501.512914 
+L 826.070574 501.512914 
+z
+" clip-path="url(#p5602ec7a72)" style="fill: #0072b2; opacity: 0.85"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 826.070574 542.910857 
+L 864.610515 542.910857 
+L 864.610515 533.357486 
+L 826.070574 533.357486 
+z
+" clip-path="url(#p5602ec7a72)" style="fill: #0072b2; opacity: 0.85"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 826.070574 574.755429 
+L 861.398853 574.755429 
+L 861.398853 565.202057 
+L 826.070574 565.202057 
+z
+" clip-path="url(#p5602ec7a72)" style="fill: #0072b2; opacity: 0.85"/>
+   </g>
+   <g id="text_104">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="767.853395" y="462.618559" transform="rotate(-0 767.853395 462.618559)">HPA tissue expression</text>
+   </g>
+   <g id="text_105">
+    <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="482.589503" transform="rotate(-0 767.853395 482.589503)">Tissue enhanced</text>
+   </g>
+   <g id="text_106">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="505.744904" transform="rotate(-0 767.853395 505.744904)">Adrenal gland</text>
+   </g>
+   <g id="text_107">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="904.204155" y="512.113819" transform="rotate(-0 904.204155 512.113819)">112.1</text>
+   </g>
+   <g id="text_108">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="537.589476" transform="rotate(-0 767.853395 537.589476)">Liver</text>
+   </g>
+   <g id="text_109">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="866.142546" y="543.95839" transform="rotate(-0 866.142546 543.95839)">56.4</text>
+   </g>
+   <g id="text_110">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="767.853395" y="569.434047" transform="rotate(-0 767.853395 569.434047)">Lung</text>
+   </g>
+   <g id="text_111">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="862.930884" y="575.802962" transform="rotate(-0 862.930884 575.802962)">51.7</text>
+   </g>
+  </g>
+  <g id="axes_18">
+   <g id="patch_32">
+    <path d="M 946.220105 491.959543 
+L 1043.121067 491.959543 
+L 1043.121067 482.406171 
+L 946.220105 482.406171 
+z
+" clip-path="url(#p77d5e7504a)" style="fill: #0072b2; opacity: 0.85"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 946.220105 531.765257 
+L 1042.841256 531.765257 
+L 1042.841256 522.211886 
+L 946.220105 522.211886 
+z
+" clip-path="url(#p77d5e7504a)" style="fill: #0072b2; opacity: 0.85"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 946.220105 571.570971 
+L 1042.841256 571.570971 
+L 1042.841256 562.0176 
+L 946.220105 562.0176 
+z
+" clip-path="url(#p77d5e7504a)" style="fill: #0072b2; opacity: 0.85"/>
+   </g>
+   <g id="text_112">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="946.220105" y="462.618559" transform="rotate(-0 946.220105 462.618559)">Top curated diseases</text>
+   </g>
+   <g id="text_113">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="946.220105" y="480.269247" transform="rotate(-0 946.220105 480.269247)">hypercholesterolemia, familial, 1</text>
+   </g>
+   <g id="text_114">
+    <text style="font-size: 7.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="1044.882902" y="492.643062" transform="rotate(-0 1044.882902 492.643062)">190.5  (n=200)</text>
+   </g>
+   <g id="text_115">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="946.220105" y="520.074962" transform="rotate(-0 946.220105 520.074962)">familial hypercholesterolemia</text>
+   </g>
+   <g id="text_116">
+    <text style="font-size: 7.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="1044.603092" y="532.448777" transform="rotate(-0 1044.603092 532.448777)">189.9  (n=200)</text>
+   </g>
+   <g id="text_117">
+    <text style="font-size: 8px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #333333" x="946.220105" y="559.880676" transform="rotate(-0 946.220105 559.880676)">hyperlipidemia</text>
+   </g>
+   <g id="text_118">
+    <text style="font-size: 7.5px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #111111" x="1044.603092" y="572.254491" transform="rotate(-0 1044.603092 572.254491)">189.9  (n=200)</text>
+   </g>
+  </g>
+  <g id="text_119">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start" x="7.2" y="18.848437" transform="rotate(-0 7.2 18.848437)">Target validation: PCSK9 · JAK2 · LDLR</text>
+  </g>
+  <g id="text_120">
+   <text style="font-size: 9px; font-family: 'Liberation Sans', 'Arimo', 'DejaVu Sans'; text-anchor: start; fill: #555555" x="7.2" y="26.64" transform="rotate(-0 7.2 26.64)">Common-cause target validation on Genebass + ClinVar + AlphaMissense + HPA + Open Targets curated evidence  ·  PCSK9 and JAK2 → gain-of-function, LDLR → loss-of-function (haploinsufficiency)</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd7ed320409">
+   <rect x="7.2" y="49.32" width="153.203101" height="159.222857"/>
+  </clipPath>
+  <clipPath id="p1fd66a2e7a">
+   <rect x="579.222078" y="49.32" width="160.863256" height="159.222857"/>
+  </clipPath>
+  <clipPath id="p193ce4cf3a">
+   <rect x="764.789333" y="49.32" width="153.203101" height="159.222857"/>
+  </clipPath>
+  <clipPath id="p8ca8a3e1d1">
+   <rect x="942.696434" y="49.32" width="176.183566" height="159.222857"/>
+  </clipPath>
+  <clipPath id="pe7b3485332">
+   <rect x="7.2" y="248.348571" width="153.203101" height="159.222857"/>
+  </clipPath>
+  <clipPath id="p722436afb6">
+   <rect x="579.222078" y="248.348571" width="160.863256" height="159.222857"/>
+  </clipPath>
+  <clipPath id="paa9a144528">
+   <rect x="764.789333" y="248.348571" width="153.203101" height="159.222857"/>
+  </clipPath>
+  <clipPath id="pecdd1dbb14">
+   <rect x="942.696434" y="248.348571" width="176.183566" height="159.222857"/>
+  </clipPath>
+  <clipPath id="p9136f91bb7">
+   <rect x="7.2" y="447.377143" width="153.203101" height="159.222857"/>
+  </clipPath>
+  <clipPath id="pa3d0c2f50f">
+   <rect x="579.222078" y="447.377143" width="160.863256" height="159.222857"/>
+  </clipPath>
+  <clipPath id="p5602ec7a72">
+   <rect x="764.789333" y="447.377143" width="153.203101" height="159.222857"/>
+  </clipPath>
+  <clipPath id="p77d5e7504a">
+   <rect x="942.696434" y="447.377143" width="176.183566" height="159.222857"/>
+  </clipPath>
+ </defs>
+</svg>

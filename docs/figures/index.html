@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>rcvtc — sanity_v1 figures</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #FAF9F3;
+      --card: #FFFFFF;
+      --border: #ECE9E2;
+      --ink: #111;
+      --muted: #555;
+      --accent: #0072B2;
+      --pcsk9: #E69F00;
+      --ldlr:  #0072B2;
+      --jak2:  #CC79A7;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      font-family: "Liberation Sans", "Arial", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    header {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(250, 249, 243, 0.96);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 22px;
+    }
+    header h1 {
+      margin: 0; font-size: 20px; font-weight: 700;
+    }
+    header .subtitle {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 3px;
+    }
+    nav {
+      margin-top: 10px;
+      display: flex; flex-wrap: wrap; gap: 8px;
+    }
+    nav a {
+      text-decoration: none;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--ink);
+      padding: 5px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      transition: background 0.15s;
+    }
+    nav a:hover { background: var(--border); }
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px 22px 60px 22px;
+    }
+    .fig {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 22px 24px;
+      margin-bottom: 26px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    .fig h2 {
+      margin: 0 0 4px 0;
+      font-size: 17px;
+      font-weight: 700;
+    }
+    .fig h2 .id {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 2px 8px;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-right: 8px;
+      vertical-align: middle;
+      font-weight: 700;
+    }
+    .fig .caption {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+      margin: 6px 0 12px 0;
+    }
+    .fig .caption strong { color: var(--ink); font-weight: 600; }
+    .fig .actions {
+      display: flex; gap: 8px;
+      margin-bottom: 12px;
+    }
+    .fig .actions a {
+      display: inline-block;
+      font-size: 12px;
+      text-decoration: none;
+      padding: 3px 9px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--ink);
+    }
+    .fig .actions a:hover { background: var(--border); }
+    .fig img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: #fff;
+    }
+    footer {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px 22px 40px 22px;
+      color: var(--muted);
+      font-size: 12px;
+      border-top: 1px solid var(--border);
+    }
+    .pill {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      color: white;
+      vertical-align: middle;
+    }
+    .pill.pcsk9 { background: var(--pcsk9); }
+    .pill.ldlr  { background: var(--ldlr); }
+    .pill.jak2  { background: var(--jak2); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>rcvtc — sanity_v1 figures</h1>
+    <div class="subtitle">
+      Common-cause target validation on real Genebass · ClinVar · AlphaMissense · HPA · Open Targets curated evidence.
+      Targets: <span class="pill pcsk9">PCSK9</span>
+      <span class="pill jak2">JAK2</span>
+      <span class="pill ldlr">LDLR</span>
+    </div>
+    <nav>
+      <a href="#F2">F2 · Burden β scatter</a>
+      <a href="#F4">F4 · AM landscape</a>
+      <a href="#F5">F5 · HPA heatmap</a>
+      <a href="#F6">F6 · Top diseases</a>
+      <a href="#F7">F7 · Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="fig" id="F2">
+      <h2><span class="id">F2</span> Burden β scatter — mask discrimination</h2>
+      <p class="caption">
+        Genebass burden β for the pLoF mask vs. the missense|LC mask, one point per
+        (gene × phenotype) association where both masks have signal (n=25 dual-mask associations).
+        Point size scales with -log₁₀ of the more significant p-value.
+        Reference diagonals: y=x (equal β) and y=1.5x (LoF-haploinsufficiency threshold).
+        <br /><br />
+        <strong>Interpretation.</strong> Every dual-mask signal falls above y=1.5x — pLoF β always
+        exceeds missense|LC β in magnitude. This is the burden-averaging artifact: a single missense
+        driver (V617F for JAK2, D374Y for PCSK9) is diluted by non-driver missense carriers.
+        Stage 3 alone cannot distinguish GoF from LoF from this pattern; stage 6 uses ClinVar
+        spectrum + LOEUF + curated GoF flags to make the final call.
+      </p>
+      <div class="actions">
+        <a href="F2_burden_scatter.png" target="_blank" rel="noopener">PNG</a>
+        <a href="F2_burden_scatter.svg" target="_blank" rel="noopener">SVG</a>
+      </div>
+      <img src="F2_burden_scatter.png" alt="F2 burden scatter" loading="lazy" />
+    </section>
+
+    <section class="fig" id="F4">
+      <h2><span class="id">F4</span> AlphaMissense landscape — per-residue evidence stack</h2>
+      <p class="caption">
+        Three vertically stacked panels (one per gene). Top strip: InterPro domain/family regions.
+        Main plot: AlphaMissense per-residue max pathogenicity as vertical lines colored by AM class
+        (grey = likely_benign, yellow = ambiguous, vermilion = likely_pathogenic). Bottom strip:
+        ClinVar 2⁺★ pathogenic variant positions (blue = missense, black = LoF, green = other).
+        <br /><br />
+        <strong>Interpretation.</strong> PCSK9 pathogenic missense variants cluster around the
+        catalytic domain (156–421); LDLR pathogenic LoF alleles (n=86) sit across the LDLa repeats
+        and EGF-like regions; JAK2's single 2⁺★ pathogenic variant is at ~617 in the JH2 pseudokinase
+        domain (V617F).
+      </p>
+      <div class="actions">
+        <a href="F4_am_landscape.png" target="_blank" rel="noopener">PNG</a>
+        <a href="F4_am_landscape.svg" target="_blank" rel="noopener">SVG</a>
+      </div>
+      <img src="F4_am_landscape.png" alt="F4 AM landscape" loading="lazy" />
+    </section>
+
+    <section class="fig" id="F5">
+      <h2><span class="id">F5</span> HPA tissue expression heatmap</h2>
+      <p class="caption">
+        3 × 20 heatmap of Human Protein Atlas consensus nTPM (log₁₀(1+x) color scale, raw values
+        labeled in cells). Tissue set = union of top-8 tissues per gene + 7 disease-relevant tissues.
+        Right-side annotations show the HPA tissue-specificity call and max tissue per gene.
+        <br /><br />
+        <strong>Interpretation.</strong>
+        PCSK9 is tissue-enriched in liver (47.5 nTPM), matching its secreted hepatic biology;
+        JAK2 shows low tissue specificity (highest 32.4 in blood vessel), consistent with broad
+        hematopoietic + vascular cytokine signaling; LDLR is tissue-enhanced with max in adrenal
+        gland (112.1), though its LDL-C-clearance biology is dominated by hepatic expression
+        (56.4 nTPM).
+      </p>
+      <div class="actions">
+        <a href="F5_hpa_heatmap.png" target="_blank" rel="noopener">PNG</a>
+        <a href="F5_hpa_heatmap.svg" target="_blank" rel="noopener">SVG</a>
+      </div>
+      <img src="F5_hpa_heatmap.png" alt="F5 HPA heatmap" loading="lazy" />
+    </section>
+
+    <section class="fig" id="F6">
+      <h2><span class="id">F6</span> Top curated disease associations per target</h2>
+      <p class="caption">
+        Three horizontal bar panels showing the top-6 Open Targets curated disease associations
+        per gene, ranked by weighted_sum (sum of per-evidence scores across curated data sources).
+        Bar labels show weighted_sum and n_evidence.
+        <br /><br />
+        <strong>Interpretation.</strong>
+        PCSK9 and LDLR share the familial hypercholesterolemia / lipid metabolism disease axis
+        (LDLR carries stronger evidence: ~190 vs ~107). JAK2's diseases (myeloproliferative
+        disorder, polycythemia, familial thrombocytosis) reflect the V617F GoF gain-of-signaling
+        mechanism.
+      </p>
+      <div class="actions">
+        <a href="F6_top_diseases.png" target="_blank" rel="noopener">PNG</a>
+        <a href="F6_top_diseases.svg" target="_blank" rel="noopener">SVG</a>
+      </div>
+      <img src="F6_top_diseases.png" alt="F6 top diseases" loading="lazy" />
+    </section>
+
+    <section class="fig" id="F7">
+      <h2><span class="id">F7</span> Target validation dashboard — 3×6 evidence composite</h2>
+      <p class="caption">
+        Landscape 16:9 composite. 3 gene rows × 6 evidence columns
+        (Header · Genebass burden · ClinVar · AlphaMissense · HPA · Diseases).
+        Header cards show final verdict pill, LOEUF, and composite score from stage 9.
+        All values pulled from source parquets — no hard-coded numbers.
+        <br /><br />
+        <strong>Interpretation.</strong> Reading a row left-to-right gives the full evidence stack
+        behind each verdict:
+        LDLR (rank 1, LoF · haploinsufficiency) has large pLoF β + 86 LoF ClinVar alleles;
+        PCSK9 (rank 2, GoF · activating) has 0 LoF alleles among 5 pathogenic ClinVar variants +
+        LOEUF=1.14 — stage 6 GoF override correctly re-classifies from the LoF-looking burden pattern;
+        JAK2 (rank 3, GoF · activating) has 1 pathogenic ClinVar (V617F) + curated GoF term +
+        LOEUF=0.74.
+      </p>
+      <div class="actions">
+        <a href="F7_dashboard.png" target="_blank" rel="noopener">PNG</a>
+        <a href="F7_dashboard.svg" target="_blank" rel="noopener">SVG</a>
+      </div>
+      <img src="F7_dashboard.png" alt="F7 dashboard" loading="lazy" />
+    </section>
+
+  </main>
+
+  <footer>
+    Data source: <code>rcvtc_runs/sanity_v1/</code> ·
+    Figure code: <code>rcvtc/figures/</code> ·
+    Palette: Okabe-Ito (colorblind-safe) ·
+    Fonts: Liberation Sans, editable SVG text.
+  </footer>
+</body>
+</html>
